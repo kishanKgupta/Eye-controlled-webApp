@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     webgazer.setGazeListener((data, elapsedTime) => {
         if (data == null) {
             return;
+            
         }
         
         const { x, y } = data;
